@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C78B32E3-328B-4F47-A868-ED280BEA51F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{880815AB-85D6-45B2-A2B7-978AC8785D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorLogic", "src\MonitorLogic\MonitorLogic.csproj", "{C6C74BCA-F9F0-4351-994D-DCC50ED88979}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C74BCA-F9F0-4351-994D-DCC50ED88979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C74BCA-F9F0-4351-994D-DCC50ED88979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C74BCA-F9F0-4351-994D-DCC50ED88979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C74BCA-F9F0-4351-994D-DCC50ED88979}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6C74BCA-F9F0-4351-994D-DCC50ED88979} = {C78B32E3-328B-4F47-A868-ED280BEA51F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D5741DF-96F8-466C-AB16-FC6D93FD6036}
+	EndGlobalSection
+EndGlobal
